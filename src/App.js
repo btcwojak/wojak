@@ -1,21 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="page-container">
-      <h1 className="title">Bitcoin Wojak</h1>
+      <div className="wojak">
+        <img src="https://i.imgur.com/rXMBLwx.png" height="250px"/>
+      </div>
+      <hr />
       <div className="container">
-        <div className="curved-box">
-          <ul className="link-list">
-            <li><a href="https://example1.com" target="_blank" rel="noopener noreferrer">X</a></li>
-            <li><a href="https://example2.com" target="_blank" rel="noopener noreferrer">Nostr</a></li>
-            <li><a href="https://example3.com" target="_blank" rel="noopener noreferrer">Medium</a></li>
-            <li><a href="https://example4.com" target="_blank" rel="noopener noreferrer">Fountain</a></li>
-            <li><a href="https://example5.com" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-          </ul>
+
+
+
+        <div className="link-list">
+          
+            <div class="btn"><a target="_blank" href="https://twitter.com/btcwojak">X</a></div>
+            <div class="btn"><a target="_blank" href="https://primal.net/p/npub13r80695wvq4pk0upz4vyc9808ddpeal2jdtnmn7ufj3rwnx64pvqs433s6">Nostr</a></div>
+            <div class="btn"><a target="_blank" href="https://medium.com/@btcwojak">Medium</a></div>
+            <div class="btn"><a target="_blank" href="https://fountain.fm/btcwojak">Fountain</a></div>
+            <div class="btn"><a target="_blank" href="https://www.youtube.com/channel/UCAPA7vXbiW3o0HOoLRHzw-w">YouTube</a></div>
+
         </div>
       </div>
+      <hr />
     </div>
   );
 }
